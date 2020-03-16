@@ -11,15 +11,58 @@
 				}
 				div.ee {
 					font-family: ee;
+					right: 0px;
+
+				}
+				div.aparent {
+					font-family: ee;
+				}
+				div.bparent {
+					bottom: -200px;
+					left:30%;
+				}
+				div.cparent {
+					position: absolute;
+					bottom: -500px;
+					left:10%;
+				}
+				div.dparent {
+					position: absolute;
+					bottom: -45%;
+					left: 0%;
+				}
+				div.textb {
+					position: relative;
+					bottom: 150px;
+					left: -400px;
+					float:	right;
+				}
+				div.videob {
+					position: relative;
+					width: 575px;
+					height: 331px;
+					float:	right;
+					bottom: 375px;
+					left: -500px;
+;
 				}
 				div.videoa {
 					position: relative;
-					bottom: -20px;
+					bottom: -10px;
 					left: 20px;
+					width: 575px;
+					height: 331px;
+					float:	left;
 				}
 				div.texta {
-					poition: fixed;
-					top: 0px;
+					position:absolute;
+					left: 600px;
+					top: 1px;
+				}
+				div.imga {
+					position: absolute;
+					left: 110%;
+					top: 0%;
 				}
 				@font-face {
 					font-family: "ee";
@@ -27,13 +70,12 @@
 				}
 				h3 {
 					color: #1B1464;
-					font-family: ee;
 				}
 				.topnav {
 				  font-family: ee;
 				  position: relative;
 				  overflow: hidden;
-				  width: 15	00px;
+				  width: 1500px;
 				  background-color: #333;
 				}
 
@@ -99,11 +141,11 @@
 
 				  <!-- Centered link -->
 				  <div class="topnav-centered">
-					<a href="./marketing/index.html" class="active">Marketing</a>
+					<a href="" class="active">Marketing</a>
 				  </div>
 				  
 				  <!-- Left-aligned links (default) -->
-				  <a href="#news">Video Production</a>
+				  <a href="../index.html">Home</a>
 				  
 				  <!-- Right-aligned links -->
 				  <div class="topnav-right">
@@ -112,12 +154,52 @@
   
 			</div>
 		</center>
+		<div class="aparent w3-animate-bottom">
 			<div class="videoa w3-animate-bottom">
-				<iframe width="575" height="331" src="https://www.youtube.com/embed/eY52Zsg-KVI"></frame>
+				<iframe width="575" height="331" src="https://www.youtube.com/embed/eY52Zsg-KVI">
+				</iframe>
 			</div>
-			
-		<div class="videoa w3-animate-bottom">
-			<p>Text</p>
+			<div class="texta w3-animate-bottom">
+				<h3><font face="ee">Our work with the La Cueva High School Football Program begun July of 2019. EONIC was
+			    tasked with gaining game coverage and compiling the weekly highlights for the team to
+				watch. We would like to thank Brandon Back and all of the football staff for entrusting 
+				us with such great responsibility. Documenting this journey was quite the experience! 
+				Go check out <a href="#ON2NXT1">#ON2NXT1</a> as the season documentary.</font></h3>
+			</div>
+		</div>
+		<div class="bparent w3-animate-bottom">
+		
+			<div class="textb w3-animate-bottom">
+				<h3><font face="ee">We offered our services to [] resteraunt for<br> 
+				their food festival and the outcome was<br> spectacular, # amount of people showed up <br>thanks to our pormotional video showcasing the true flavor of
+				New Mexico and the true service they have to offer.</font></h3>	
+			</div>
+			<div class="videob w3-animate-bottom">
+				<iframe width="575" height="331" src="https://www.youtube.com/embed/eY52Zsg-KVI">
+				</iframe>
+			</div>
+		</div>
+		<div class="dparent w3-animate-bottom">
+			<center>
+				<h1><font face="ee">Help Us Market You! Remember our prices vary specifically with how you coose to be<br> showcased, contact us for a quote!</font></h1>
+			</center>
+		</div>
+		<div class="cparent w3-animate-bottom">
+			<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com"
+			  action="https://script.google.com/macros/s/AKfycbzufNWNs2Ny9DcTY0PzCTq-CTbfMG4_UKm5S1klog/exec">
+				<input id="name" name="name" placeholder="Name" size="30" />
+				<br>
+				<input id="email" name="email" type="email" value="" required placeholder="Email" size="30" />
+				<br>
+				<textarea id="message" name="message" rows="5" cols="75" placeholder="Message"></textarea>
+				
+				<button class="button-success pure-button button-xlarge">
+					<i class="fa fa-paper-plane"></i>Send
+				</button>
+			</form>
+			<div class="imga">
+				<img src="gif1.png" width="500" height="170">
+			</div>
 		</div>
 	</body>
 </html>
